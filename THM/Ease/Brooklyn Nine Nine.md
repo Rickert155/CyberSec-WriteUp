@@ -2,7 +2,7 @@
 
 > This room is aimed for beginner level hackers but anyone can try to hack this box. There are two main intended ways to root the box.  
 
-Провери открытые порты через nmap:
+Проверим открытые порты через nmap:
 ```sh
 nmap -sS -sV -p- 10.113.165.97
 ```
@@ -21,7 +21,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 16.83 seconds
 ```
 
-Доступна три открытых порта:
+Доступны три открытых порта:
 - 21 - ftp
 - 22 - ssh
 - 80 - webapp  
@@ -111,7 +111,7 @@ Megapixels                      : 0.160
 ```
 После двоеточия идет алфавит, который начинается не с самого начала, а с букв *C*.  
 Так как в записке note_to_jake нам говорилось, что у jake слабый пароль. Но от чего он? возможно, что речь про ssh.  
-С помощью hydra бы быстро выяснили пароль:
+С помощью hydra быстро выяснили пароль:
 ```sh
 hydra -l jake -P /tmp/pass.txt ssh://10.113.165.97
 ```
