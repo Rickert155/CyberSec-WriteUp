@@ -169,7 +169,7 @@ esac
 
 Таким образом мы смогли повысить свои привелегии на сервере!
 
-### Используемый инструменты:
+### Используемые инструменты:
 - [CyberWarn](https://github.com/rickert155/CyberWarn)
 - [LinPEAS.sh](https://github.com/nagaxor/linPEAS)
 - netcat
